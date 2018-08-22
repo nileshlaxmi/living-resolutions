@@ -7,8 +7,8 @@
     --theme-primary-color: #18191B;
     --theme-secondary-color: #212225;
     --theme-tertiary-color: #450000;
-    --font-primary-color: #A87D0B;
-    --font-secondary-color: #ccc;
+    --font-primary-color: #F8951D;
+    --font-secondary-color: #ffffff;
     --font-tertiary-color: #ECEFF3;
 }
 
@@ -217,11 +217,6 @@ strong{
     color: var(--font-primary-color);
 }
 
-#contact>h2{
-    text-align: center;
-    color: var(--font-primary-color);
-}
-
 .contact-form-div{
     width: 100%;
     min-height: 200px;
@@ -232,16 +227,51 @@ strong{
     color: var(--font-secondary-color);
 }
 
-.form-div{
-    display: block;
+.info-div{
+    width: 40%;
+    border: 1px solid #ffffff;
     padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+#contact>h2{
+    text-align: center;
+    color: var(--font-primary-color);
+}
+
+.form-div{
+    width: 40%;
+    display: block;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 #ECEFF3;;
+    background-color: #fff;
+    color: #18191B;
+    text-align: center;
+}
+
+.form-div input{
+    width: 49%;
+    background-color: #ccc;
+    color: black;
+}
+
+/* .form-div input[type=email]{
+    width: 49%;
+} */
+
+.form-div textarea{
+    width: 99%;
+    background-color: #ccc;
 }
 
 .form-div>form>button{
     padding: 8px;
-    width: 100%;
-    /* background-color: transparent; */
+    width: 99%;
     color: var(--theme-primary-color);
+    background-color: #0f0;
 }
 
 footer{
