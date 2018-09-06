@@ -292,28 +292,18 @@ body{
     }
 
     footer{
-        width: 100%;
-        min-height: 100px;
-        padding: 10px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
+        min-width: 100%;
+        /* padding: 10px; */
         background-color: var(--theme-secondary-color);
     }
 
     .footer-div{
-        min-height: 100px;
-        width: 30%;
         margin-top: 5px;
         padding: 8px;
         border-radius: 10px;
         color: var(--font-secondary-color);  
         text-decoration: none;
-        border: 1px solid white;
-    }
-
-    #copyright-div{
-        text-align: center;
+        /* border: 1px solid white; */
     }
 
     #contact-div{
@@ -324,20 +314,49 @@ body{
         text-align: center;
     }
 
-    #social-div{
-        background-color: transparent;
-        text-align: center;
+    .social-wrapper{
+        display: flex;
+        flex-flow: nowrap row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
-    #social-div>a{    
+    .social-icon{
+        height: 43px;
+        width: 43px;
+        border: 1px solid #ffffff;
+        padding: 12px 13px;
+        margin: 15px;
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Safari */
+        transform: rotate(45deg);
+    }
+
+    .social-icon>span{
+        -ms-transform: rotate(-45deg); /* IE 9 */
+        -webkit-transform: rotate(-45deg); /* Safari  */
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+
+    .social-icon>span>a{    
         color: var(--font-primary-color);
-        font-size: 20px;
-        margin: 10px;    
     }
 
-    #social-div>a:hover{    
+    .social-icon>span>a:hover{    
         color: var(--font-tertiary-color);   
     }
+
+    #copyright-div{
+        text-align: center;
+        padding: 8px;
+        color: var(--font-secondary-color);  
+        text-decoration: none;
+        min-width: 100%;
+        background-color: var(--theme-primary-color);
+    }
+
 }
 
 /* 
