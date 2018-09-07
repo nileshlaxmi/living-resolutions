@@ -14,27 +14,36 @@
 
 body{
     background-color: var(--theme-primary-color);
-    color: var(--font-seconday-color);
+    color: var(--font-secondary-color);
+}
+
+button{
+    border-radius: 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+strong{
+    color: var(--font-primary-color);
+}
+
+span{
+    color: var(--font-primary-color);
+}
+
+span>i{
+    color: var(--font-primary-color);
 }
 
 /*
     Below is CSS design for media bigger than 1200px
     mostly desktops and laptops
 */
-@media only screen and (min-width: 1200px){    
-    button{
-        border-radius: 5px;
-    }
-
-    img{
-        width: 100%;
-        height: 100%;
-    }
-
-    strong{
-        color: var(--font-primary-color);
-    }
-
+@media only screen and (min-width: 1080px){    
+    
     #nav-bar{
         background-color: var(--theme-primary-color);  
     }
@@ -290,75 +299,6 @@ body{
         color: var(--theme-primary-color);
         background-color: #0f0;
     }
-
-    footer{
-        min-width: 100%;
-        background-color: var(--theme-secondary-color);
-    }
-
-    .footer-header{
-        text-align: center;
-    }
-
-    .footer-div{
-        margin-top: 5px;
-        padding: 8px;
-        border-radius: 10px;
-        color: var(--font-secondary-color);  
-        text-decoration: none;
-    }
-
-    #contact-div{
-        text-align: left;
-    }
-
-    #contact-div>h3{
-        text-align: center;
-    }
-
-    .social-wrapper{
-        display: flex;
-        flex-flow: nowrap row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .social-icon{
-        height: 43px;
-        width: 43px;
-        border: 1px solid #ffffff;
-        padding: 12px 13px;
-        margin: 15px;
-        -ms-transform: rotate(45deg); /* IE 9 */
-        -webkit-transform: rotate(45deg); /* Safari */
-        transform: rotate(45deg);
-    }
-
-    .social-icon>span{
-        -ms-transform: rotate(-45deg); /* IE 9 */
-        -webkit-transform: rotate(-45deg); /* Safari  */
-        position: absolute;
-        transform: rotate(-45deg);
-    }
-
-    .social-icon>span>a{    
-        color: var(--font-primary-color);
-    }
-
-    .social-icon>span>a:hover{    
-        color: var(--font-tertiary-color);   
-    }
-
-    #copyright-div{
-        text-align: center;
-        padding: 8px;
-        color: var(--font-secondary-color);  
-        text-decoration: none;
-        min-width: 100%;
-        background-color: var(--theme-primary-color);
-    }
-
 }
 
 /* 
