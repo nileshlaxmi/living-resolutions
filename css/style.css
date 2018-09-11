@@ -43,27 +43,6 @@ span>i{
     mostly desktops and laptops
 */
 @media only screen and (min-width: 1080px){    
-    
-    #nav-bar{
-        background-color: var(--theme-primary-color);  
-    }
-
-    #nav-bar a{
-        color: var(--font-secondary-color);  
-    }
-
-    #myNavbar a{
-        color: var(--font-secondary-color);
-    }
-
-    #myNavbar a:hover{
-        color: var(--font-secondary-color);
-    }
-
-    #myNavbar a:focus{
-        color: var(--font-secondary-color);
-    }
-
     .center-fit{
         width: 100%;
         max-height: 100vh;

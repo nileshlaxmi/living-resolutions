@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --theme-primary-color: #18191B;
+    --theme-secondary-color: #212225;
+    --theme-tertiary-color: #450000;
+    --font-primary-color: #F8951D;
+    --font-secondary-color: #ffffff;
+    --font-tertiary-color: #ECEFF3;
+}
+
+body{
+    background-color: var(--theme-primary-color);
+    color: var(--font-secondary-color);
+}
+
+button{
+    border-radius: 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+strong{
+    color: var(--font-primary-color);
+}
+
+span{
+    color: var(--font-primary-color);
+}
+
+span>i{
+    color: var(--font-primary-color);
+}
+
+
+/*
+    Below is CSS design for media bigger than 1200px
+    mostly desktops and laptops
+*/
+
+@media only screen and (min-width: 1080px){    
+    #nav-bar{
+        background-color: var(--theme-primary-color);  
+    }
+
+    #nav-bar a{
+        color: var(--font-secondary-color);  
+    }
+
+    #myNavbar a{
+        color: var(--font-secondary-color);
+    }
+
+    #myNavbar a:hover{
+        color: var(--font-secondary-color);
+    }
+
+    #myNavbar a:focus{
+        color: var(--font-secondary-color);
+    }
+}
