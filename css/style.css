@@ -180,22 +180,8 @@ span>i{
         box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3;
     }
 
-    .seven{
-        grid-column: 1/4;
-        grid-row: 5/7;
-        box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3;
-    }
-
-    .eight{
-        grid-column: 4/7;
-        grid-row: 5/7;
-        box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3;
-    }
-
-    .nine{
-        grid-column: 7/10;
-        grid-row: 5/7;
-        box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3;
+    #one:hover{
+        background-color: #f00;
     }
 
     #about{
