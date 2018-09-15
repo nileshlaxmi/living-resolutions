@@ -10,6 +10,7 @@
     --font-primary-color: #F8951D;
     --font-secondary-color: #ffffff;
     --font-tertiary-color: #ECEFF3;
+    --overlay-theme-color: #F8B742;
 }
 
 body{
@@ -180,8 +181,50 @@ span>i{
         box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3;
     }
 
-    #one:hover{
-        background-color: #f00;
+    .overlay{
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--overlay-theme-color);;
+    }
+
+    .one:hover .overlay {
+        opacity: 1;
+    }
+
+    .two:hover .overlay {
+        opacity: 1;
+    }
+
+    .three:hover .overlay {
+        opacity: 1;
+    }
+
+    .four:hover .overlay {
+        opacity: 1;
+    }
+
+    .five:hover .overlay {
+        opacity: 1;
+    }
+
+    .six:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
 
     #about{
