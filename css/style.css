@@ -54,7 +54,7 @@ span>i{
     .text-block{
         position: absolute;
         top: 30%;
-        left: 30%;
+        left: 28%;
         z-index: 1;
         margin: 5px;
         padding: 10px;
@@ -101,11 +101,48 @@ span>i{
     .describing-design{
         position: absolute;
         z-index: -1;
-        height: 300px;
+        height: 305px;
         width: 280px;
         left: 10%;
         margin: 40px 0;
         border: 10px solid red;
+    }
+
+    .describingDesign-text{
+        width: 50%;
+        margin: auto;
+        display: inline-block;
+        position: relative;
+    }
+
+    .describing-div-box{
+        display: inline-block;
+        position: absolute;
+        height: 150px;
+        width: 250px;
+    }
+
+    .describing-div-box>i{
+        font-size: 23px;
+    }
+    .row1-box1{
+        top: 40px;
+        left: 500px;
+    }
+
+    .row1-box2{
+        top: 40px;
+        right: 100px;
+    }
+
+    .row2-box1{
+        bottom: 50px;
+        left: 500px;
+    }
+
+    .row2-box2{
+        bottom: 50px;
+        right: 100px;
     }
 
     .service{
