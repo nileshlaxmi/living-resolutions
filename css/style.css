@@ -54,13 +54,14 @@ span>i{
     .text-block{
         position: absolute;
         top: 30%;
-        left: 28%;
+        left: 35%;
+        right: 35%;
         z-index: 1;
         margin: 5px;
         padding: 10px;
         background-color: transparent;
         height: 200px;
-        width: 40%;
+        width: 100%;
         color: var(--font-secondary-color);
     }
 
@@ -70,9 +71,8 @@ span>i{
 
     .text-block button{
         padding: 10px;
-        margin-top: 10px;;
         background-color: transparent;
-        margin-left: 35%;
+        margin-left: 10%;
     }
 
     .describingDesign{
@@ -80,18 +80,24 @@ span>i{
         min-height: 400px;
     }
 
+    .describing-header{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .describingDesign-img{
         width: 50%;
-        position: relative;
+        position: absolute;
         display: block;
-        margin: 2% 6%;
+        margin: 1% 6%;
     }
 
     .describing-img{
         position: absolute;
         height: 300px;
         width: 300px;
-        margin: 20px;
+        
     }
 
     .describing-img img{
@@ -103,7 +109,8 @@ span>i{
         z-index: -1;
         height: 305px;
         width: 280px;
-        left: 10%;
+        top: 3%;
+        left: 5%;
         margin: 40px 0;
         border: 10px solid red;
     }
