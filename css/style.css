@@ -352,7 +352,7 @@ span>i{
         color: var(--font-secondary-color);
     }
 
-    .contact-form-div{
+    /* .contact-form-div{
         width: 100%;
         min-height: 200px;
         padding: 10px;
@@ -396,7 +396,7 @@ span>i{
         width: 99%;
         color: var(--theme-primary-color);
         background-color: #0f0;
-    }
+    } */
 }
 
 /* 
