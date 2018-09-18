@@ -161,14 +161,21 @@ span>i{
     .heading-class{
         width: 100%;
         text-align: center;
-        margin: 20px;
-        padding-top: 20px;
+        margin: 5px;
+        padding: 5px
+    }
+
+    .heading-services{
+        width: 100%;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
     }
 
     .service-img-box, .service-text-box{
         width: 100%;
         min-height: 200px;
-        padding: 10px;
+        padding-bottom: 30px;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
