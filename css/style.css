@@ -158,6 +158,13 @@ span>i{
         margin-bottom: 20px;
     }
 
+    .heading-class{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
     .service-img-box, .service-text-box{
         width: 100%;
         min-height: 200px;
@@ -221,6 +228,13 @@ span>i{
     .service-text>h5{
         text-align: left;
         color: var(--font-primary-color);
+    }
+
+    .heading-projects{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
     }
 
     #projects{
