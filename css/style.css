@@ -161,7 +161,7 @@ span>i{
     .heading-class{
         width: 100%;
         text-align: center;
-        margin-top: 20px;
+        margin: 20px;
         padding-top: 20px;
     }
 
@@ -200,8 +200,11 @@ span>i{
         width: 100%;
     }
 
+    .service-common{
+        background-color: var(--theme-primary-color);
+    }
+
     .service-text{
-        /* height: 400px; */
         width: 250px;
         margin-top: 20px;
         color: var(--font-secondary-color);
@@ -230,11 +233,16 @@ span>i{
         color: var(--font-primary-color);
     }
 
+    .projects-common{
+        background-color: var(--theme-secondary-color);
+        padding-bottom: 50px;
+    }
+
     .heading-projects{
         width: 100%;
         text-align: center;
-        margin: 10px;
-        padding: 10px;
+        margin: 5px;
+        padding: 5px;
     }
 
     #projects{
@@ -246,7 +254,6 @@ span>i{
         width: 90%; 
         margin: auto;
         max-width: 1140px;
-        margin-bottom: 30px;
     }
 
     .one{
@@ -336,8 +343,9 @@ span>i{
         display: flex;
         flex-direction: row;
         padding: 10px;
+        margin: 10px;
         color: var(--font-primary-color);
-        background-color: var(--theme-secondary-color);
+        background-color: var(--theme-primary-color);
     }
 
     #about-img{
