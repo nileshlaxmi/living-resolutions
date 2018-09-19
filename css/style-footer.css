@@ -122,3 +122,101 @@ span>i{
         background-color: var(--theme-primary-color);
     }
 }
+
+/* 
+Medium devices (landscape tablets, 768px and up) 
+*/
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* 
+Extra small devices (phones, 600px and down)
+*/
+@media only screen and (max-width: 768px) {
+    footer{
+        min-width: 100%;
+        background-color: var(--theme-secondary-color);
+    }
+    
+    .footer-header{
+        text-align: center;
+    }
+    
+    .footer-div{
+        margin-top: 5px;
+        padding: 8px;
+        color: var(--font-secondary-color);  
+        text-decoration: none;
+    }
+    
+    #footer-contact{
+        display: flex;
+        flex-flow: nowrap column;
+    }
+    
+    .contact-div{
+        text-align: left;
+        width: 22%;
+        min-height: 100px;
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: baseline;
+    }    
+    
+    .social-wrapper{
+        display: flex;
+        flex-flow: nowrap row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .contact-icon{
+        height: 45px;
+        width: 45px;
+        border: 1px solid #ffffff;
+        padding: 12px 15px;
+        margin: 15px;
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Safari */
+        transform: rotate(45deg);
+    }
+    
+    .social-icon{
+        height: 43px;
+        width: 43px;
+        border: 1px solid #ffffff;
+        padding: 12px 13px;
+        margin: 15px;
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Safari */
+        transform: rotate(45deg);
+    }
+    
+    .social-icon>span{
+        -ms-transform: rotate(-45deg); /* IE 9 */
+        -webkit-transform: rotate(-45deg); /* Safari  */
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+    
+    .social-icon>span>a{    
+        color: var(--font-primary-color);
+    }
+    
+    .social-icon>span>a:hover{    
+        color: var(--font-tertiary-color);   
+    }
+    
+    #copyright-div{
+        text-align: center;
+        padding: 10px;
+        color: var(--font-secondary-color);  
+        text-decoration: none;
+        width: 100%;
+        background-color: var(--theme-primary-color);
+    }
+} 
