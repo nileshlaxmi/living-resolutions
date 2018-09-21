@@ -477,7 +477,106 @@ Medium devices (landscape tablets, 768px and up)
 Extra small devices (phones, 600px and down)
 */
 @media only screen and (max-width: 768px) {
+    .projects-common{
+        background-color: var(--theme-secondary-color);
+        padding-bottom: 50px;
+    }
 
+    .heading-projects{
+        width: 100%;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #projects{
+        display: flex;
+        flex-flow: nowrap column; 
+        width: 75%;
+        height: 200px; 
+    }
+
+    .one{
+        width: 100%;
+        height: 100%; 
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3; */
+    }
+
+    .two{
+        width: 100%;
+        height: 100%; 
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3; */
+    }
+
+    .three{
+        width: 100%;
+        height: 100%; 
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3; */
+    }
+
+    .four{
+        width: 100%;
+        height: 100%; 
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3; */
+    }
+
+    .five{
+        width: 100%;
+        height: 100%; 
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3; */
+    }
+
+    .six{
+        width: 100%;
+        height: 100%; 
+        padding: 10px;
+        margin: 10px;
+        /* box-shadow: 5px 4px #ccc, 5px 6px 5px 0 #ECEFF3; */
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--overlay-theme-color);;
+    }
+
+    .one:hover .overlay {
+        opacity: 1;
+    }
+
+    .two:hover .overlay {
+        opacity: 1;
+    }
+
+    .three:hover .overlay {
+        opacity: 1;
+    }
+
+    .four:hover .overlay {
+        opacity: 1;
+    }
+
+    .five:hover .overlay {
+        opacity: 1;
+    }
+
+    .six:hover .overlay {
+        opacity: 1;
+    }
 } 
 
  
