@@ -44,7 +44,14 @@ span>i{
     mostly desktops and laptops
 */
 @media only screen and (min-width: 1080px){    
-    .center-fit{
+    /* .center-fit{
+        width: 100%;
+        max-height: 100vh;
+        margin: auto;
+        opacity: 0.6;
+    } */
+
+    homeImage{
         width: 100%;
         max-height: 100vh;
         margin: auto;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .center-fit{
+            width: 100%;
+            max-height: 100vh;
+            margin: auto;
+            opacity: 0.6;
+            background-color: #ff0;
+        }
+    </style>
+</head>
+<body>
+    <div id="homeImage" class="center-fit"></div>                    
+</body>
+<script>
+    var images = ["bg-one.jpg", "bg-two.jpg", "bg-three.jpg"];
+
+    $(function(){
+        let i = 0;
+        $("#homeImage").css("background-image", "url(images/" + images[i] + ")");
+            setInterval(function () {
+                i++;
+                if (i == images.length) {
+                    i = 0;
+                }
+                $("#homeImage").fadeOut("slow", function () {
+                    $(this).css("background-image", "url(images/" + images[i] + ")");
+                    $(this).fadeIn("slow");
+                });
+            }, 5000);
+    });
+</script>
+</html>
