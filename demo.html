@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
-        .center-fit{
+        .home{
+            height: 800px;
+            width: 800px;
+        }
+        #homeImage{
             width: 100%;
-            max-height: 100vh;
-            margin: auto;
-            opacity: 0.6;
-            background-color: #ff0;
+            /* height: auto;
+            max-width: 100%;
+            max-height: 100%; */
+            /* background-color: #ff0; */
+            border: 1px solid green;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
-    <div id="homeImage" class="center-fit"></div>                    
+    <div class="home">
+        <div id="homeImage"></div>                    
+    </div>
+    
 </body>
 <script>
     var images = ["bg-one.jpg", "bg-two.jpg", "bg-three.jpg"];
