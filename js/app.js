@@ -23,4 +23,15 @@ $(function(){
 
         console.log("i", i , " currentImg", currentImg);
     }, 3500);
+
+    $('.gallery-item').magnificPopup({
+        type: 'image',
+        gallery:{
+            enabled:true,
+            navigateByImgClick: true,
+            tPrev: 'Previous (Left arrow key)', // title for left button
+            tNext: 'Next (Right arrow key)', // title for right button
+            tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+        }
+    });
 });
