@@ -1,9 +1,20 @@
+
+
+
 function hireButton(){
     window.location.href = "contact.html";
 }
 var images = ["images/bg-two.jpg", "images/bg-three.jpg", "images/bg-one.jpg"];
 
 $(function(){
+    var tobi = new Tobi({
+        close: true,
+        keyboard: true,
+        captions: false,
+        zoom: false,
+        counter: false
+    });
+
     let i = 0;
     var currentImg;
     setInterval(function(){
@@ -11,7 +22,7 @@ $(function(){
         currentImg = images[i];
 
         $("#homepage").animate({opacity: 0}, "slow", function(){
-            $(this).attr("src", currentImg).animate({opacity:0.7});
+            $(this).attr("src", currentImg).animate({opacity:0.6});
         });
 
         if(i>=2){
@@ -23,4 +34,6 @@ $(function(){
 
         // console.log("i", i , " currentImg", currentImg);
     }, 3500);
+
+    
 });
