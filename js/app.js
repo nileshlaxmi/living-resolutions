@@ -1,7 +1,7 @@
 function hireButton(){
     window.location.href = "contact.html";
 }
-var images = ["images/bg-one.jpg", "images/bg-two.jpg", "images/bg-three.jpg"];
+var images = ["images/bg-two.jpg", "images/bg-three.jpg", "images/bg-one.jpg"];
 
 $(function(){
     let i = 0;
@@ -21,6 +21,6 @@ $(function(){
             i++;
         }
 
-        console.log("i", i , " currentImg", currentImg);
+        // console.log("i", i , " currentImg", currentImg);
     }, 3500);
 });
