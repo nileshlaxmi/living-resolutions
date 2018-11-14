@@ -1,7 +1,5 @@
-var tobi = new Tobi({
-    close: true,
-    keyboard: true
-});
+
+
 
 function hireButton(){
     window.location.href = "contact.html";
@@ -9,6 +7,14 @@ function hireButton(){
 var images = ["images/bg-two.jpg", "images/bg-three.jpg", "images/bg-one.jpg"];
 
 $(function(){
+    var tobi = new Tobi({
+        close: true,
+        keyboard: true,
+        captions: false,
+        zoom: false,
+        counter: false
+    });
+
     let i = 0;
     var currentImg;
     setInterval(function(){
