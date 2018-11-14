@@ -1,6 +1,3 @@
-
-
-
 function hireButton(){
     window.location.href = "contact.html";
 }
@@ -12,7 +9,8 @@ $(function(){
         keyboard: true,
         captions: false,
         zoom: false,
-        counter: false
+        counter: false,
+        closeLabel : "Close"
     });
 
     let i = 0;
