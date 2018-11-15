@@ -481,7 +481,27 @@ span>i{
 Medium devices (landscape tablets, 768px and up) 
 */
 @media only screen and (min-width: 768px) {
-    
+    .text-block{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        right: 35%;
+        z-index: 1;
+        margin: 5px;
+        padding: 10px;
+        width: 100%;
+        color: var(--font-secondary-color);
+    }
+
+    .text-block h1{
+        text-transform: uppercase;
+    }
+
+    .text-block button{
+        padding: 10px;
+        background-color: transparent;
+        margin-left: 10%;
+    }
 }
 
 /* 
